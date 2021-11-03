@@ -21,7 +21,7 @@ Use API
 </repositories>
 
 <dependency>
-    <groupId>com.github.Blugon0921</groupId>
+    <groupId>com.github.blugon09</groupId>
     <artifactId>ProjectName</artifactId>
     <version>VERSION</version>
 </dependency>
@@ -36,7 +36,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.Blugon0921:ProjectName:VERSION'
+    implementation 'com.github.blugon09:ProjectName:VERSION'
 }
 ```
 
@@ -48,6 +48,6 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.Blugon0921:ProjectName:VERSION")
+    implementation("com.github.blugon09:ProjectName:VERSION")
 }
 ```
