@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.5.31"
+    kotlin("jvm") version "1.6.0"
     id("com.github.johnrengelman.shadow") version "7.0.0"
     id("org.jetbrains.dokka") version "1.5.0"
     `maven-publish`
@@ -16,6 +16,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.6.0")
     implementation("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
     implementation("net.kyori:adventure-api:4.9.3")
 }
