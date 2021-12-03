@@ -15,6 +15,7 @@ repositories {
     maven("https://oss.sonatype.org/content/groups/public/")
 }
 
+
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.6.0")
     implementation("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
