@@ -12,7 +12,6 @@ version = "1.0.0-SNAPSHOT"
 repositories {
     mavenCentral()
     maven("https://papermc.io/repo/repository/maven-public/")
-    maven("https://oss.sonatype.org/content/groups/public/")
 }
 
 
