@@ -1,6 +1,6 @@
 # PluginApiTemplate
 
-[![ItemHelper](https://img.shields.io/badge/ItemHelper-1.0.0_SNAPSHOT-blue.svg)]()
+[![PluginApiTemplate](https://img.shields.io/badge/PluginApiTemplate-1.0.0_SNAPSHOT-blue.svg)]()
 <br><br>
 [![Java](https://img.shields.io/badge/Java-17-FF7700.svg?logo=java)]()
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.6.0-186FCC.svg?logo=kotlin)]()
@@ -24,33 +24,31 @@
 </repositories>
 
 <dependency>
-    <groupId>io.github.blugon09</groupId>
+    <groupId>kr.blugon</groupId>
     <artifactId>API Name</artifactId>
     <version>VERSION</version>
 </dependency>
 ```
 
 
-## Gradle
+## Groovy
 ```gradle
 repositories {
-    ...
     maven { 'https://repo.projecttl.net/repository/maven-public/' }
 }
 
 dependencies {
-    implementation 'io.github.blugon09:API Name:VERSION'
+    implementation 'kr.blugon:API Name:VERSION'
 }
 ```
 
 ## Kotlin DSL
 ```gradle
 repositories {
-    ...
     maven("https://repo.projecttl.net/repository/maven-public/")
 }
 
 dependencies {
-    implementation("io.github.blugon09:API Name:VERSION")
+    implementation("kr.blugon:API Name:VERSION")
 }
 ```

@@ -4,7 +4,7 @@ plugins {
     `maven-publish`
 }
 
-group = "io.github.blugon09"
+group = "kr.blugon"
 version = "1.0.0-SNAPSHOT"
 
 
