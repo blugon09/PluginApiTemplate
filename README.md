@@ -23,11 +23,13 @@
     </repository>
 </repositories>
 
-<dependency>
-    <groupId>kr.blugon</groupId>
-    <artifactId>API Name</artifactId>
-    <version>VERSION</version>
-</dependency>
+<dependencies>
+    <dependency>
+        <groupId>kr.blugon</groupId>
+        <artifactId>ApiName</artifactId>
+        <version>VERSION</version>
+    </dependency>
+</dependencies>
 ```
 
 
@@ -38,7 +40,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'kr.blugon:API Name:VERSION'
+    implementation 'kr.blugon:ApiName:VERSION'
 }
 ```
 
@@ -49,6 +51,6 @@ repositories {
 }
 
 dependencies {
-    implementation("kr.blugon:API Name:VERSION")
+    implementation("kr.blugon:ApiName:VERSION")
 }
 ```
